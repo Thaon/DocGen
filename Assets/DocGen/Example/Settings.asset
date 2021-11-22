@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b6dcdcaada9f740a5e759d0dcb5f53, type: 3}
   m_Name: Settings
   m_EditorClassIdentifier: 
+  useTables: 0
   Classes:
   - ExampleClass
+  - ExampleBaseClass
