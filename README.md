@@ -12,8 +12,30 @@ The ideal scenario is to pair it with a framework like [MkDocs](https://www.mkdo
 ## How to use
 
 - Import the UnityPkg into your game. 
+
+- Use the **Docs** tag to add documentation to your:
+
+  - Classes
+  - Structs
+  - Methods
+  - Variables
+  - etc...
+
+  
+
+  Like so:
+
+  ```csharp
+  [Docs("Write your documentation here")]
+  public int_mMyVar = 10;
+  ```
+
+  
+
 - Create a new **DocumentationSettings** file from the create asset menu.
+
 - Specify which classes **DocGen** is supposed to document (write the class names in the settings file).
+
 - Click **Generate** and enjoy your new documentation.
 
 

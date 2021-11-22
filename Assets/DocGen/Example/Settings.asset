@@ -13,6 +13,4 @@ MonoBehaviour:
   m_Name: Settings
   m_EditorClassIdentifier: 
   useTables: 0
-  Classes:
-  - ExampleClass
-  - ExampleBaseClass
+  Classes: []
